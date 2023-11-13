@@ -188,7 +188,6 @@ void awake_threads(int64_t ticks);
 bool cmp_thread_priority_mlfqs (const struct list_elem *x, const struct list_elem *y, void *aux UNUSED);
 bool test_priority_mlfqs (void);
 
-bool cmp_donator_priority(const struct list_elem *x, const struct list_elem *y, void *aux UNUSED);
 void donate_priority(void);
 void remove_donators_for(struct lock *lock);
 void update_priority (void);
